@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(p89 p89_a^b%p.cpp) # Easy
 add_executable(p90 p90_a*b%p.cpp) # Easy
 add_executable(p92 p92_ExponentEnum.cpp) # Easy
+add_executable(p93 p93_CombineEnum.cpp) # Easy
