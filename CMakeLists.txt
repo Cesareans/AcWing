@@ -3,4 +3,4 @@ project(AcWing)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AcWing main.cpp)
+add_executable(p89 p89_a^b.cpp)
