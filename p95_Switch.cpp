@@ -69,7 +69,7 @@ int main() {
     for (int i = 0; i < 5; ++i) {
         arr[i] = new char[5];
     }
-    scanf("%d", &n);
+    cin >> n;
     for(int k = 0 ; k < n ; ++k){
         for (int i = 0; i < 5; ++i) {
             for (int j = 0; j < 5; ++j){
