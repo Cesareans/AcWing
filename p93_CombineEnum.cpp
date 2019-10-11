@@ -3,6 +3,9 @@
 
 using namespace std;
 
+/*
+ * 使用引用vector记录，为了减少复制支出需要使用引用，注意往下走回来后需要进行状态恢复
+ */
 void ExponentEnum(vector<int> &vec, int n, int m, int ni, int mi) {
     if(mi == m){
         for(int k : vec) printf("%d ", k);
