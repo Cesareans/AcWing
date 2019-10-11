@@ -8,3 +8,4 @@ add_executable(p90 p90_a*b%p.cpp) # Easy
 add_executable(p92 p92_ExponentEnum.cpp) # Easy
 add_executable(p93 p93_CombineEnum.cpp) # Easy
 add_executable(p94 p94_ArrangeEnum.cpp) # Easy
+add_executable(p95 p95_Switch.cpp)# Medium
