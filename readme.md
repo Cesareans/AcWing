@@ -15,3 +15,5 @@
         
 > Interest Problems
     
+    P94：Arrange Enumration，Easy
+    
