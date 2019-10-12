@@ -4,6 +4,9 @@ using namespace std;
 const int N = 100010;
 int arr[N];
 
+/*
+ * 我透，差分太难了
+ */
 int main(){
     int n;
     cin >> n;
