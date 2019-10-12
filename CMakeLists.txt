@@ -14,3 +14,4 @@ add_executable(p96 p96_OddHanoita.cpp) # Easy
 add_executable(p99 p99_LaserBomb.cpp) # Medium
 add_executable(p100 p100_IncDec.cpp) # Medium
 add_executable(p101 p101_HighestCow.cpp) # Easy
+add_executable(p102 p102_BestCowFences.cpp) # Medium
