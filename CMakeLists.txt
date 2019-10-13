@@ -17,3 +17,4 @@ add_executable(p101 p101_HighestCow.cpp) # Easy
 add_executable(p102 p102_BestCowFences.cpp) # Medium
 add_executable(p103 p103_movie.cpp) # Easy
 add_executable(p113 p113_specialSort.cpp) # Easy
+add_executable(p41 p41_minStack.cpp)
