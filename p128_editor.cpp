@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 const int N = 1000010;
@@ -15,20 +14,20 @@ void lInsert(int v) {
 
 int main() {
     int n;
-    cin >> n;
-    char cmd;
+    scanf("%d", &n);
+    char cmd[2];
     int v;
     for (int i = 0; i < n; ++i) {
-        cin >> cmd;
-        switch (cmd) {
+        scanf("%s", cmd);
+        switch (*cmd) {
             case 'I': {
-                cin >> v;
+                scanf("%d", &v);
                 lInsert(v);
                 break;
             }
             case 'Q': {
-                cin >> v;
-                cout << maxStack[v] << endl;
+                scanf("%d", &v);
+                printf("%d\n", maxStack[v]);
                 break;
             }
             case 'D':
@@ -96,7 +95,13 @@ void lDelete(){
         maxStack.pop();
     }
 }
+static int x=[](){
+    std::ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    return 0;
+}();
 int main() {
+
     int n;
     cin >> n;
     char cmd;
