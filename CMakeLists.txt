@@ -23,3 +23,4 @@ add_executable(p128 p128_editor.cpp) # Easy
 add_executable(p129 p129_trainStack.cpp) # Easy
 add_executable(p130 p130_trainStackSize.cpp) # Medium
 add_executable(p131 p131_maxRectangle.cpp) # Easy
+add_executable(p132 p132_teamQueue.cpp) # Easy
