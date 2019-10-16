@@ -21,3 +21,5 @@ add_executable(p103 p103_movie.cpp) # Easy
 add_executable(p113 p113_specialSort.cpp) # Easy
 add_executable(p128 p128_editor.cpp) # Easy
 add_executable(p129 p129_trainStack.cpp) # Easy
+add_executable(p130 p130_trainStackSize.cpp) # Medium
+add_executable(p131 p131_maxRectangle.cpp) # Easy

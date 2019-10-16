@@ -2,6 +2,7 @@
   <dictionary name="cesare">
     <words>
       <w>lstack</w>
+      <w>rqueue</w>
       <w>rstack</w>
     </words>
   </dictionary>

@@ -19,3 +19,7 @@
     P97：Sum of diverors，Medium # Not Resolved yet
     P99：LaserBomb，Easy. 【前缀和，开大数组，有趣的边界处理】
     P102：BestCowFences，Medium. 【前缀和，二分答案】
+    
+> Excellent Problems 
+    
+    p131：maxRectangle，Easy as introduced，Hard for me. Pretty Excellent problem
