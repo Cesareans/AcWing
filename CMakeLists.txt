@@ -26,3 +26,5 @@ add_executable(p131 p131_maxRectangle.cpp) # Easy
 add_executable(p132 p132_teamQueue.cpp) # Easy
 add_executable(p133 p133_earthworm.cpp) # Easy
 add_executable(p135 p135_maxSubSum.cpp) # Easy
+add_executable(p136 p136_neiborValueSearch.cpp) # Medium
+add_executable(p137 p137_snowFlakes.cpp) # Easy
