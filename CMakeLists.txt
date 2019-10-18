@@ -29,3 +29,4 @@ add_executable(p135 p135_maxSubSum.cpp) # Easy
 add_executable(p136 p136_neiborValueSearch.cpp) # Medium
 add_executable(p137 p137_snowFlakes.cpp) # Easy
 add_executable(p138 p138_rabbits.cpp) # Easy
+add_executable(p139 p139_longestPalindrome.cpp) # Medium
