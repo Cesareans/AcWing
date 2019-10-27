@@ -25,7 +25,7 @@ int main(){
         if(*str == 'I'){
             scanf("%d", &x);
             push_left(x);
-        }else if(*str == 'D'){
+        } else if(*str == 'D'){
             if(tl > 0) tl--;
         } else if(*str == 'L'){
             if(tl > 0) stkr[++tr] = stkl[--tl];
