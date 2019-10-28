@@ -29,10 +29,13 @@
 
     当给定答案时，能判断该答案是否合适，且判断代价较低时，可尝试二分答案法
 
-> 关流
-    
-    当题目输入量极大时，需关流或者使用scanf/printf
-    
+# 代码处理
+> cast `int*` to `int[size] `
+```C++
+(int(*)[size]) arr
+```
+
+> 关流：当题目输入量极大时，需关流或者使用scanf/printf
 ```c++
 static int x=[](){
     std::ios::sync_with_stdio(false);
