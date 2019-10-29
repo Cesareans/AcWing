@@ -4,4 +4,6 @@ project(AcWing)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(p34_searchRange p34_searchRange.cpp)
+add_executable(p42_trapWater p42_trapWater.cpp)
+add_executable(p46_Permutations.cpp p46_Permutations.cpp)
 add_executable(p74_searchMatrix p74_searchMatrix.cpp)
