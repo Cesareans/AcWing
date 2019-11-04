@@ -17,9 +17,8 @@ Node nodes[N];
 int dist[N], visited[N];
 
 void add(int x, int y ,int z){
-    Node& node = nodes[x];
-    Node* next = new Node(z, y, node.next);
-    node.next = next;
+    Node* next = new Node(z, y, nodes[x].next);
+    nodes[x].next = next;
 }
 
 int main(){
