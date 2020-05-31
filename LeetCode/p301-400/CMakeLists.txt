@@ -4,3 +4,4 @@ project(AcWing)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(p338_countingBits p338_countingBits.cpp)
+add_executable(p371_getSum p371_getSum.cpp)
